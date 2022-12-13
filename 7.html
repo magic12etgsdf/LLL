@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/7.css">
+</head>
+<body>
+    <div class="ua">
+        <a href="#" class="g1">2022年 7月 28日</a>
+        <a href="#" class="g2">5℃～6℃</a>
+      </div>
+      <div class="uc">
+        <a href="#" class="qo">
+          <img src="/images/微信图片_20220728212751.jpg">
+        </a> 
+        </div>
+       <div class="nav">
+        <ul>
+          <li>
+          <a href="/1.html">首页</a>
+          </li> 
+          <li>
+           <a href="#">志愿活动</a>
+          </li>
+          <li>
+           <a href="#">志愿风采</a>
+          </li>
+          <li>
+           <a href="#">志愿组织</a>
+          </li>
+          <li>
+           <a href="#">志愿经验</a>
+          </li>
+          <li>
+           <a href="#">个人中心</a>
+          </li>
+          <li>
+           <a href="#">关于我们</a> 
+          </li> 
+        </ul>
+       </div>
+       <div class=" detail-box">
+        <h1>帖子标题</h1>
+        <div class=" fly-detail-hint" data-id="">
+            <span class="fly-tip-stick">
+                <a href="#">置顶帖</a>
+            </span>
+            <span class="jie-admin1"> 
+                <a href="">点击置顶</a> 
+            </span> 
+            <span class="jie-admin2"> 
+                <a href="">取消置顶</a>
+            </span> 
+            <span class="jie-admin3" type="del" style="margin-left: 20px;">
+                <a>删除该帖</a> 
+            </span> 
+            <div class="fly-list-hint">
+                <div class="iconfont" title="回答">
+                    <img src="/images/聊天.png">
+            </div> 
+            <a href="">2</a> 
+            </div>
+        </div>
+        <div class="detail-about">
+            <a class="jie-user" href=""> 
+                <img src="/images/KHCFDC_头像 2.png" alt="头像"> 
+            </a>
+                <div class="cite"> 
+                    <a href="" class="al">压缩</a>
+                    <em>2017-05-01发布</em> 
+                </div> 
+            
+            <div class="detail-hits" data-id="{{rows.id}}">
+                 <span class="dmin">
+                    <a href="#">已完帖，无法编辑</a> 
+                </span> 
+                <span class="admin" type="collect" data-type="add">
+                     <a id="collectPost">收藏</a> 
+                    </span> 
+                    <span class="layui-btn-danger" type="collect" data-type="add"> 
+                        <a>取消收藏</a> 
+                    </span>
+
+            </div>
+        </div>
+        <div class="photos" style="margin-bottom: 20px;">
+            <p>帖子内容</p>
+        </div>
+    </div>
+    <div class="fly-box" style="padding-top: 0;">
+        <div class="jieda" id="jieda">
+            <div data-id="12" class="jieda-daan">
+                <div class="detail-a">
+                    <a class="jie-user" href=""> 
+                        <img class="im" src="/images/KHCFDC_头像 2.png" alt=""> 
+                        <cite> 
+                            <i>纸飞机</i>
+                        </cite> 
+                    </a>
+                    <div class="detail-hits">
+                        <span>3分钟前</span>
+                    </div>
+                    <div class="icon" title="最佳答案">
+                        <img src="/images/采纳.png">
+                    </div>
+                <div class="jied">
+                    <p>么么哒</p>
+                </div>
+                <div class="jieda-reply">                   
+                        <div class="zan">
+                            <img src="/images/点赞_块.png">
+                        </div>
+                        <em>12</em> 
+                </div>
+                </div>
+            </div>
+                <div class="reply">
+                    <a class="jie-user" href=""> 
+                        <img src="/images/KHCFDC_头像 2.png" alt=""> 
+                        <cite> 
+                            <i>香菇</i>
+                            <em style="color:#FF9E3F">活雷锋</em> 
+                        </cite>
+                    </a>
+                    <div class="detail-hits">
+                        <span>刚刚</span>
+                    </div>
+                </div>
+                <div class="detail">
+                    <p>蓝瘦</p>
+                </div>
+                <div class="jieda-reply">
+                    <span class="jieda-zan" type="zan">
+                        <div class="iconfon" >
+                            <img src="/images/3.1点赞.png">
+                        </div>
+                        <em>0</em>
+                    </span> 
+                    <div class="ji">
+                        <div class="del" type="del">
+                            <a href="#" class="small">删除</a>
+                        </div>
+                        <div class="accept" type="accept">
+                            <a href="#" class="btn">采纳</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <span id="toName">@压缩(楼主)</span>		
+        <div class="layui-input-block">
+                            <div class="yt">
+                              <a href="">
+                              <img class="po" src="/images/表情.png">
+                              </a>
+                              <a href="">
+                              <img class="pa" src="/images/图片.png">
+                              </a>
+                              <a href="">
+                              <img class="pc" src="/images/省略号.png">
+                              </a>
+                            </div>
+                            <input class="ip">
+                          <div class="layui-form-item3">
+                            <button class="layui-btn" lay-filter="*" lay-submit="">回 答</button>
+                          </div>
+        </div>
+    </div>
+    <div class="edge">
+        <dl class="fly">
+            <dt class="fly-panel-title">
+                <a href=""> 
+                    最近热帖
+                </a>
+                </dt>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局（基本结构）</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">Java实现LayIM后端的核心代码</a>  <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局（基本结构）</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">Java实现LayIM后端的核心代码</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局（基本结构）</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">Java实现LayIM后端的核心代码</a>
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局（基本结构）</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">Java实现LayIM后端的核心代码</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+        </dl>
+
+        <dl class="fl">
+            <dt class="fly-panel-title">近期热议</dt>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a> 
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+            <dd>
+                <a href="">使用 layui 秒搭后台大布局之基本结构</a>  
+                <span>
+                    <div class="iconfont">
+                        <img src="/images/眼睛.png">
+                    </div> 
+                    <a href="">6087</a>
+                </span>
+            </dd>
+        </dl>
+    </div>
+    <div class="fp">
+        <div class="ui1">
+        <span>Quick Links</span>
+        <a class="a1" href="#">Home</a>
+        <a class="a2" href="#">Activity</a>
+        <a class="a3" href="#">Show</a>
+        <a class="a4" href="#">Project</a>
+        <a class="a5" href="#">Personal center</a>
+        <a class="a6" href="#">About</a>
+        </div>
+        <div class="ui2">
+          <span>Language</span>
+          <a class="a1" href="#">en</a>
+          <a class="a2" href="#">zh_CN</a>
+          <a class="a3" href="#">fr</a>
+          <a class="a4" href="#">IND</a>
+          <a class="a5" href="#">ru_RU</a>
+          <a class="a6" href="#">ko_KR</a>
+          </div>
+          <div class="ui3">
+            <a href="#">校青协时间银行</a>
+          </div>
+          <div class="ui4">
+            <img src="/images/微信图片_20220728212751.jpg">
+          </div>
+      </div>
+    
+</body>
+</html>
