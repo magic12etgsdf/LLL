@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ua{
+  width: 100%;
+  height: 20px;
+  background-color: #5ee7df;
+}
+.ua>.g1{
+  margin-left: 1200px;
+}
+.ua>.g2{
+  margin-left: 80px;
+  position: absolute;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    /* background: url(/images/RE4wppL.jpg) no-repeat;     */
+    border-bottom:solid 5px red ;
+}
+a{
+    text-decoration: none;
+    color:black;  
+}
+ .uc{
+  height: 90px;
+  width: 200px;
+  position: absolute;
+}
+.uc>.qo>img{
+  float: left;
+  width: 100%;
+  height: 100%;
+} 
+.nav>ul{
+  margin-left: 350px;
+}
+.nav>ul>li{
+  height: 90px;
+  padding: 0 40px;
+  /* background-color: #ff4444; */
+  float:left;
+  list-style: none;
+
+}
+.nav>ul>li>a{
+  color: black;
+  line-height: 90px;
+}
+a{
+    text-decoration: none;
+}
+.j1{
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    background: url(/images/bg_news-min.png)no-repeat;
+}
+.j1>.j2{
+    font-size: 80px;
+    font-family: '  STLiti',  STXingkai;
+}
+.j1>.j3>a{
+    font-size: 20px;
+  
+}
+.j1>.j4>a{
+    font-size: 20px;
+     
+}
+.j1>.j5>a{
+    font-size: 20px;
+    
+}
+.j1>.j6>a{
+    font-size: 20px;
+    
+}
+.j1>.j7>a{
+    font-size: 20px;
+    
+}
+input{
+    font-size: 16px;
+}
+button{
+    font-size: 20px;
+}
+.j1>button{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.j1>.lp{
+    font-size: 40px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 600px;
+    font-family: '  STLiti',  KaiTi;
+}
+
+

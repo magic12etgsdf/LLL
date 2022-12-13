@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ua{
+    width: 100%;
+    height: 20px;
+    background-color: #5ee7df;
+  }
+  .ua>.g1{
+    margin-left: 1200px;
+  }
+  .ua>.g2{
+    margin-left: 80px;
+    position: absolute;
+  }
+  .nav{
+      width: 100%;
+      height: 90px;
+      /* background: url(/images/RE4wppL.jpg) no-repeat;     */
+      border-bottom:solid 5px red ;
+  }
+  a{
+      text-decoration: none;
+      color:black;  
+  }
+   .uc{
+    height: 90px;
+    width: 200px;
+    position: absolute;
+  }
+  .uc>.qo>img{
+    float: left;
+    width: 100%;
+    height: 100%;
+  } 
+  .nav>ul{
+    margin-left: 350px;
+  }
+  .nav>ul>li{
+    height: 90px;
+    padding: 0 40px;
+    /* background-color: #ff4444; */
+    float:left;
+    list-style: none;
+  
+  }
+  .nav>ul>li>a{
+    color: black;
+    line-height: 90px;
+  }
+/*初始化  reset*/
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+
+.feedbackwrap{
+    width:1200px;
+    margin:auto;
+    margin-top: 0px;
+}
+
+.feedbackslide {
+    height:244px;
+    position: relative;
+}
+
+.feedbackslide li{
+    position: absolute;
+    left: 0px;
+    margin-top:20;
+}
+
+.feedbackslide li img{
+    height: 170px;
+    width:240px;
+    box-shadow:#d6d4d3 0px 0px 20px;
+}
+
+.feedbackarrow{
+    opacity: 1;
+}
+
+.feedbackprev,.feedbacknext{
+    width:27px;
+    height:50px;
+    position: absolute;
+    top:50%;
+    margin-top:-25px;
+    background: url(../images/leftblue.png) no-repeat;
+    z-index: 99;
+}
+
+.feedbacknext{
+    right:0;
+    background-image: url(../images/rightblue.png);
+}
+
+.feedbackname{
+	width: 100%;
+	margin-top: 26px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    border-radius: 20px;
+    border: solid 5px red;
+}
+
+.feedbackname .p1{
+	font-size: 22px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.feedbackname .p2{
+	font-size: 18px;
+	color: #666;
+}
+.fp{
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    height: 300px;
+    border-top:solid 8px #ff4444;
+    background-color: #943838;
+  }
+  .fp>.ui1{
+    height: 300px;
+    width: 400px;
+    margin-left: 400px;
+    /* background-color: #000;*/
+  } 
+  .fp>.ui1>span{
+    font-size: 50px;
+    font-weight: 400;
+  } 
+  .fp>.ui1>.a1{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -260px;
+  } 
+  .fp>.ui1>.a2{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -260px;
+  } 
+  .fp>.ui1>.a3{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -260px;
+  } 
+  .fp>.ui1>.a4{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -260px;
+  } 
+  .fp>.ui1>.a5{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: -260px;
+  } 
+  .fp>.ui1>.a6{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -260px;
+  } 
+  
+  .fp>.ui2{
+    height: 300px;
+    width: 400px;
+    margin-left: 860px;
+    /* background-color: #000; */
+    margin-top: -300px;
+  }
+  .fp>.ui2>span{
+    font-size: 50px;
+    font-weight: 400;
+  } 
+  .fp>.ui2>.a1{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -230px;
+  } 
+  .fp>.ui2>.a2{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -230px;
+  } 
+  .fp>.ui2>.a3{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -230px;
+  } 
+  .fp>.ui2>.a4{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -230px;
+  } 
+  .fp>.ui2>.a5{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: -230px;
+  } 
+  .fp>.ui2>.a6{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -230px;
+  } 
+  .fp>.ui3{
+    height: 300px;
+    width: 400px;
+    margin-left: 1120px;
+    background-color: #5ee7df;
+    margin-top: -300px;
+  }
+  .fp>.ui3>a{
+    font-size: 20px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 270px;
+  }
+  .fp>.ui4{
+    height: 300px;
+    width: 400px;
+    background-color: #5ee7df;
+    margin-top: -300px;
+  }
+  .fp>.ui4>img{
+  width: 100%;
+  height: 100%;
+  }

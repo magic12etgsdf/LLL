@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ua{
+  width: 100%;
+  height: 20px;
+  background-color: #5ee7df;
+}
+.ua>.g1{
+  margin-left: 1200px;
+}
+.ua>.g2{
+  margin-left: 80px;
+  position: absolute;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    /* background: url(/images/RE4wppL.jpg) no-repeat;     */
+    border-bottom:solid 5px red ;
+}
+a{
+    text-decoration: none;
+    color:black;  
+}
+ .uc{
+  height: 90px;
+  width: 200px;
+  position: absolute;
+}
+.uc>.qo>img{
+  float: left;
+  width: 100%;
+  height: 100%;
+} 
+.nav>ul{
+  margin-left: 350px;
+}
+.nav>ul>li{
+  height: 90px;
+  padding: 0 40px;
+  /* background-color: #ff4444; */
+  float:left;
+  list-style: none;
+
+}
+.nav>ul>li>a{
+  color: black;
+  line-height: 90px;
+}
+.up{
+  width: 100%;
+  height: 600px;
+}
+.up>.o0{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.up>.o0>span{
+  font-size: 40px;
+}
+.up>.o1{
+  width: 900px;
+  height: 500px;
+  border:solid #ff4444;
+  margin-left: 400px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 20px;
+  
+}
+.up>.o1>.j1{
+  width: 900px;
+  height: 40px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  background-color: rgb(198, 178, 178);
+}
+.up>.o1>.j1>span{
+  font-size: 20px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.up>.o1>.j1>a>.c1{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -0px;
+  margin-left: 860px;
+}
+.up>.o1>.j1>a>.c2{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -0px;
+  margin-left: 820px;
+}
+.up>.o1>.j1>a>.c3{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -0px;
+  margin-left: 780px;
+}
+.up>.o1>.j2{
+  height: 460px;
+  width: 900px;
+  background: url(/images/bg_news-min.png) no-repeat ;
+  background-size: cover;
+}
+.up>.o1>.j2>.j3{
+  height: 320px;
+  width: 270px;
+  background-color: white;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 40px;
+  box-shadow: 2px 4px 2px 1px grey;
+}
+.up>.o1>.j2>.j3>.j4{
+  width: 270px;
+  height: 40px;
+  border-bottom: solid 1px grey;
+  background-color: rgb(234, 216, 216);
+}
+.up>.o1>.j2>.j3>.j4>a{
+font-size: 20px;
+position: absolute;
+margin-left: 60px;
+margin-top: 5px;
+}
+.up>.o1>.j2>.j3>.j5>a{
+  font-size: 25px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.up>.o1>.j2>.j3>.j5>.ipt{
+  font-size: 16px;
+  width: 160px;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 60px; 
+}
+.up>.o1>.j2>.j3>.j6>a{
+  font-size: 25px;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 15px;
+}
+.up>.o1>.j2>.j3>.j6>.ipt{
+  font-size: 16px;
+  width: 160px;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 130px; 
+}
+.up>.o1>.j2>.j3>.j7>button{
+  font-size: 20px;
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 200px;
+}
+.fp{
+  width: 100%;
+  height: 300px;
+  border-top:solid 8px #ff4444;
+  background-color: #943838;
+}
+.fp>.ui1{
+  height: 300px;
+  width: 400px;
+  margin-left: 400px;
+  /* background-color: #000;*/
+} 
+.fp>.ui1>span{
+  font-size: 50px;
+  font-weight: 400;
+} 
+.fp>.ui1>.a1{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: -260px;
+} 
+.fp>.ui1>.a2{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -260px;
+} 
+.fp>.ui1>.a3{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -260px;
+} 
+.fp>.ui1>.a4{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: -260px;
+} 
+.fp>.ui1>.a5{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: -260px;
+} 
+.fp>.ui1>.a6{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: -260px;
+} 
+
+.fp>.ui2{
+  height: 300px;
+  width: 400px;
+  margin-left: 860px;
+  /* background-color: #000; */
+  margin-top: -300px;
+}
+.fp>.ui2>span{
+  font-size: 50px;
+  font-weight: 400;
+} 
+.fp>.ui2>.a1{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: -230px;
+} 
+.fp>.ui2>.a2{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -230px;
+} 
+.fp>.ui2>.a3{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -230px;
+} 
+.fp>.ui2>.a4{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: -230px;
+} 
+.fp>.ui2>.a5{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: -230px;
+} 
+.fp>.ui2>.a6{
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: -230px;
+} 
+.fp>.ui3{
+  height: 300px;
+  width: 400px;
+  margin-left: 1120px;
+  background-color: #5ee7df;
+  margin-top: -300px;
+}
+.fp>.ui3>a{
+  font-size: 20px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 270px;
+}
+.fp>.ui4{
+  height: 300px;
+  width: 400px;
+  background-color: #5ee7df;
+  margin-top: -300px;
+}
+.fp>.ui4>img{
+width: 100%;
+height: 100%;
+}
